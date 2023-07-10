@@ -1,0 +1,16 @@
+[Unit]
+Description=SystemZen. Sensor of malicious traffic detection system
+Documentation=https://github.com/Buffer-Kills/SystemZen
+Documentation=https://github.com/Buffer-Kills/SystemZen
+Requires=network.target
+Wants=maltrail-server.service
+After=network-online.target systemzen-server.service
+
+[Service]
+User=root
+WorkingDirectory=/opt/systemzen/
+ExecStart=/usr/bin/python3 sensor.py
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

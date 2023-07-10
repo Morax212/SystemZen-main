@@ -1,0 +1,16 @@
+[Unit]
+Description=SystemZen. Server of malicious traffic detection system
+Documentation=https://github.com/Buffer-Kills/SystemZen
+Documentation=https://github.com/Buffer-Kills/SystemZen
+Requires=network.target
+Before=systemzen-sensor.service
+After=network-online.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/systemzen/
+ExecStart=/usr/bin/python3 server.py
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

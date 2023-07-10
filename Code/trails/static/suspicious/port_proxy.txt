@@ -1,0 +1,25 @@
+# Copyright (c) 2014-2023 Maltrail developers (https://github.com/stamparm/maltrail/)
+# See the file 'LICENSE' for copying permission
+
+# Reference: https://twitter.com/pmelson/status/1331018695531958272
+# Reference: https://twitter.com/ScumBots/status/1108054788804145153
+# Reference: https://twitter.com/ScumBots/status/1056727832037150727
+
+bi-tree.ru
+ngrok.io
+portmap.host
+portmap.io
+
+# Reference: https://my-homeip.de/portmapper/what_is_this
+
+portmapper.myonlineportal.net
+
+# Reference: https://www.virustotal.com/gui/domain/natfrp.cloud/relations
+
+natfrp.cloud
+
+# Reference: https://twitter.com/malwrhunterteam/status/1491742434451197958
+# Reference: https://twitter.com/malwrhunterteam/status/1491744530198110213
+
+packetriot.net
+pktriot.net
